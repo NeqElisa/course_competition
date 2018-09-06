@@ -230,7 +230,10 @@ th {
   img {
     max-width: 100% !important;
   }
-  p,
+  p{
+    font-size:100px;
+    color:#07e000;
+  }
   h2,
   h3 {
     orphans: 3;
@@ -5007,7 +5010,7 @@ a.badge:focus {
 }
 .jumbotron h1,
 .jumbotron .h1 {
-  color: inherit;
+  color:#07e000; inherit;
 }
 .jumbotron p {
   margin-bottom: 15px;
