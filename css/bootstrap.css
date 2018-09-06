@@ -1537,6 +1537,7 @@ address {
 code,
 kbd {
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  color:#07e000;
 }
 pre,
 samp {
