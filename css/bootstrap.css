@@ -5,7 +5,7 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
-  font-family: sans-serif;
+  font-family: "Courier New", Courier, monospace;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
@@ -1083,7 +1083,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Courier New", Courier, monospace;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
@@ -1184,7 +1184,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: inherit;
+  font-family: "Courier New", Courier, monospace;
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
@@ -1529,7 +1529,9 @@ address {
   line-height: 1.42857143;
 }
 code,
-kbd,
+kbd {
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
 pre,
 samp {
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
